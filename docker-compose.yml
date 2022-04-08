@@ -1,0 +1,9 @@
+version: "3.8"
+services:
+  app:
+    container_name: remix_run
+    build: .
+    command: npm run start
+    ports:
+      - 80:80
+    restart: always
