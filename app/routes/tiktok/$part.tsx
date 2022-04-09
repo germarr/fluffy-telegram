@@ -7,6 +7,8 @@ import hljs from 'highlight.js';
 import styles from "highlight.js/styles/github-dark-dimmed.css"
 import { useEffect } from "react";
 
+//npm i --save-dev @types/marked
+
 export const links: LinksFunction = () =>{
   return[
       {
