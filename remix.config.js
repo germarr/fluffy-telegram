@@ -10,9 +10,10 @@ module.exports = {
     return{
       rehypePlugins:[rehypeHighlight]
     }
-  }
-  // appDirectory: "app",
-  // assetsBuildDirectory: "public/build",
-  // serverBuildPath: "build/index.js",
-  // publicPath: "/build/",
+  },
+  appDirectory: "app",
+  browserBuildDirectory: "public/build",
+  publicPath: "/build/",
+  serverBuildDirectory: "azure/function/build",
+  devServerPort: 8002,
 };
